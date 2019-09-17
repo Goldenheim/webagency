@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+      <meta charset="utf-8">
+      <title>Webagency : pour tous vos projets web !</title>
+      <link rel="shortcut icon" type="image/ico" href="images/ico/favicon.ico"/>
+      <meta name="description" content="La WebAgency peut réaliser tous vos projets digitaux !"/>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   </head>
+   <body>
+      <div id="main_wrapper">
+         <!--  NAVIGATION -->
+         <header id="topBar">
+            <div id="logo">
+               <a href="#"><img src="images/logo.png" alt="logo Webagency" /></a>
+            </div>
+            <div id="burgerMenu">
+               <nav id="menu">
+                  <ul>
+                     <li><a class="menuLinks" href="#accueilAnchor">Accueil</a></li>
+                     <li><a class="menuLinks" href="#servicesAnchor">Services</a></li>
+                     <li><a class="menuLinks" href="#portfolioAnchor">Portfolio</a></li>
+                     <li><a class="menuLinks" href="#contactAnchor">Contact</a></li>
+                  </ul>
+               </nav>
+            </div>
+            <div id="openClose">
+               <!-- Burger menu -->
+               <a href="#burgerMenu" class="open"><i class="fas fa-bars"></i></a>
+               <a href="#" class="close"><i class="fas fa-times-circle"></i></a>
+            </div>
+         </header>
+         <div id="content">
+            <!-- Conteneur des sections -->
+            <div id="accueilAnchor" class="anchor"></div>
+            <!-- SLIDES SECTION -->						
+            <div class="slides" id="slide1">
+               <div class="arrowLeft">
+                  <i class="fas fa-angle-left"></i>
+               </div>
+               <img src="images/slider/bg1.jpg" alt="slider_children">
+               <aside>
+                  <h1><strong>WEBAGENCY</strong> : L'AGENCE DE TOUS VOS PROJETS ! </h1>
+                  <p>Vous avez un projet web ? La Webagency vous aide à le réaliser ! </p>
+                  <input type="button" value="Plus d'infos" id="more_infos" title="Cliquez ici pour en savoir plus">
+               </aside>
+               <div class="arrowRight">
+                  <i class="fas fa-angle-right"></i>
+               </div>
+               <div class="progressLine"></div>
+               <div class="blueLine"></div>
+            </div>
+            <div class="slides" id="slide2">
+               <div class="arrowLeft">
+                  <i class="fas fa-angle-left"></i>
+               </div>
+               <img src="images/slider/bg2.jpg" alt="slider">
+               <div class="arrowRight">
+                  <i class="fas fa-angle-right"></i>
+               </div>
+            </div>
+            <!-- PRESENTATION SECTION -->
+            <section class="sections" id="services">
+               <!-- Presentation head part -->
+               <div id="servicesAnchor" class="anchor"></div>
+               <div class="sectionTitle">
+                  <h2>NOS SERVICES</h2>
+                  <div class="lineBreaker">
+                     <hr class="lineLeft">
+                     <div class="dotBreaker"></div>
+                     <hr class="lineRight">
+                  </div>
+                  <p class="sousTitre">Nous mettons toute notre expérience en matière de design web, de référencement SEO et de création de contenu à votre service pour des réalisations de qualité</p>
+               </div>
+               <!-- Services presentation -->
+               <div id="sectionPresentation">
+                  <img id="Feature" src="images/main-feature.png" alt="Ecran_ordinateur">
+                  <div id="serviceContent">
+                     <ul id="listeServices">
+                        <li class="serviceswrap">
+                           <div class="serviceDot">
+                              <i class="fa fa-chart-line"></i>
+                              <i class="fa fa-circle dot"></i>
+                           </div>
+                           <div>
+                              <h3>UX Design</h3>
+                              <p>Avec la multiplication des supports et l'avènement du web mobile, l'expérience utilisateur est aujourd'hui primordiale. Chez Webagency, vous bénéficiez d'une identité unique pour votre site web et d'une adaptabilité sans failles.</p>
+                           </div>
+                        </li>
+                        <li class="serviceswrap">
+                           <div class="serviceDot">
+                              <i class="fa fa-cubes"></i>
+                              <i class="fa fa-circle dot"></i>
+                           </div>
+                           <div>
+                              <h3>UI Design</h3>
+                              <p>Avec plus de 800000 nouveaux sites par jour, un design créatif et responsive vous fera sortir du lot. Nous vous garantissons l'élaboration d'un style à la fois répréséntatif, ergonomique et fonctionnel répondant à tous vos besoins et ceux de vos prospects.</p>
+                           </div>
+                        </li>
+                        <li class="serviceswrap">
+                           <div class="serviceDot">
+                              <i class="fa fa-chart-pie"></i>
+                              <i class="fa fa-circle dot"></i>
+                           </div>
+                           <div>
+                              <h3>SEO</h3>
+                              <p>Notre expertise en terme de référencement web vous propulsera dans les premiers résultats des moteurs de recherche. Nous travaillons en étroite collaboration avec vous pour vous créer un contenu pertinent basé sur les mots clés qui vous assurerons le meilleur taux de rebond. </p>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </section>
+            <!-- PROJECTS SECTION -->				
+            <section id="projects">
+               <!-- Project head part -->
+               <div id="portfolioAnchor" class="anchor"></div>
+               <div class="sectionTitle">
+                  <h2>NOS PROJETS</h2>
+                  <div class="lineBreaker">
+                     <hr class="lineLeft">
+                     <div class="dotBreaker"></div>
+                     <hr class="lineRight">
+                  </div>
+                  <p class="sousTitre">De nombreuses entreprises nous font déjà confiance, et pourquoi pas vous ?</p>
+               </div>
+               <ul id="menuPortfolio">
+                  <li id="allWorks" class="projectLinks selected"><i class="fas fa-caret-down"></i><a href="#">All works</a></li>
+                  <li id="creative" class="projectLinks"><i class="fas fa-caret-down"></i><a href="#">Creative</a></li>
+                  <li id="corporate" class="projectLinks"><i class="fas fa-caret-down"></i><a href="#">Corporate</a></li>
+                  <li id="portfolio" class="projectLinks"><i class="fas fa-caret-down"></i><a href="#">Portfolio</a></li>
+               </ul>
+               <!-- Portfolio -->
+               <table>
+                  <tr>
+                     <td>
+                        <a href="images/portfolio/01.jpg"><img src="images/portfolio/01.jpg" alt="Lunettier"></a>
+                        <a href="#">
+                           <div class="popUp">
+                              <i class="far fa-eye"></i>
+                              <h3>Le Lunettier</h3>
+                              <p>Vente en ligne de lunettes</p>
+                           </div>
+                        </a>
+                     </td>
+                     <td>
+                        <a href="images/portfolio/02.jpg"><img src="images/portfolio/02.jpg" alt="vente de jouets"></a>
+                        <a href="#">
+                           <div class="popUp">
+                              <i class="far fa-eye"></i>
+                              <h3>Magic rabbit</h3>
+                              <p>Jouets d'éveil pour les tout petits</p>
+                           </div>
+                        </a>
+                     </td>
+                     <td>
+                        <a href="images/portfolio/03.jpg"><img src="images/portfolio/03.jpg" alt="friperie"></a>
+                        <a href="#">
+                           <div class="popUp">
+                              <i class="far fa-eye"></i>
+                              <h3>Pompadour</h3>
+                              <p>Vêtements de marques en Outlet</p>
+                           </div>
+                        </a>
+                     </td>
+                     <td>
+                        <a href="images/portfolio/04.jpg"><img src="images/portfolio/04.jpg" alt="éditions de print "></a>
+                        <a href="#">
+                           <div class="popUp">
+                              <i class="far fa-eye"></i>
+                              <h3>MakeD Agency</h3>
+                              <p>Cartes de visite et Flyers</p>
+                           </div>
+                        </a>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="images/portfolio/05.jpg"><img src="images/portfolio/05.jpg" alt="site de goodies"></a>
+                        <a href="#">
+                           <div class="popUp">
+                              <i class="far fa-eye"></i>
+                              <h3>GoodGoodies</h3>
+                              <p>Personnalisation d'accesoires</p>
+                           </div>
+                        </a>
+                     </td>
+                     <td>
+                        <a href="images/portfolio/06.jpg"><img src="images/portfolio/06.jpg" alt="banque d'images"></a>
+                        <a href="#">
+                           <div class="popUp">
+                              <i class="far fa-eye"></i>
+                              <h3>FontArt</h3>
+                              <p>Banque d'images digitales</p>
+                           </div>
+                        </a>
+                     </td>
+                     <td>
+                        <a href="images/portfolio/07.jpg"><img src="images/portfolio/07.jpg" alt="cartouches d'encre"></a>
+                        <a href="#">
+                           <div class="popUp">
+                              <i class="far fa-eye"></i>
+                              <h3>INKShop</h3>
+                              <p>Cartouches et toners </p>
+                           </div>
+                        </a>
+                     </td>
+                     <td>
+                        <a href="images/portfolio/08.jpg"><img src="images/portfolio/08.jpg" alt="site de fournitures de bureau"></a>
+                        <a href="#">
+                           <div class="popUp">
+                              <i class="far fa-eye"></i>
+                              <h3>Abconsommables</h3>
+                              <p>Fournitures de bureau</p>
+                           </div>
+                        </a>
+                     </td>
+                  </tr>
+               </table>
+            </section>
+            <!-- CONTACT / MAP SECTION -->				
+            <section id="contactSection">
+               <div id="contactAnchor" class="anchor"></div>
+               <form method="post" action="Traitement.php">
+                  <h3>Contact Info</h3>
+                  <p><em>Web agency SAS</em> <br>
+                     25 Rue D'Hauteville 75010 Paris <br>
+                     Tel : 01.02.03.04.05
+                  </p>
+                  <p class="infoCustomer">
+                     <input type="text" name="Name" id="Name" placeholder="Name" size="38" maxlength="10" /><br>
+                     <input type="email" name="email" id="email" placeholder="Email" size="38" maxlength="10" /><br>
+                     <input type="text" name="subject" id="subject" placeholder="Subject" size="38" maxlength="10" /><br>
+                  </p>
+                  <p class="zoneArea">
+                     <textarea id="message" rows="10" cols="38" placeholder="Message"></textarea>
+                  </p>
+                  <input type="button" id="Send_message" value="Send message">
+               </form>
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.221424608046!2d2.347636915837692!3d48.87305530762774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1551360363358" width="800" height="600" allowfullscreen></iframe>
+            </section>
+         </div>
+      </div>
+   </body>
+</html>
